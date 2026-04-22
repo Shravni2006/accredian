@@ -1,0 +1,79 @@
+[
+  {
+    "name": "lead_submission",
+    "fields": [
+      {
+        "name": "FirstName",
+        "type": "text",
+        "description": "First name or full name of the lead",
+        "options": null
+      },
+      {
+        "name": "LastName",
+        "type": "text",
+        "description": "Last name of the lead",
+        "options": null
+      },
+      {
+        "name": "Email",
+        "type": "text",
+        "description": "Contact email address",
+        "options": null
+      },
+      {
+        "name": "Phone",
+        "type": "text",
+        "description": "Contact phone number",
+        "options": null
+      },
+      {
+        "name": "Company",
+        "type": "text",
+        "description": "Company name",
+        "options": null
+      },
+      {
+        "name": "CompanySize",
+        "type": "text",
+        "description": "Number of employees in the company",
+        "options": null
+      },
+      {
+        "name": "Domain",
+        "type": "text",
+        "description": "Domain of interest (e.g., Data Science)",
+        "options": null
+      },
+      {
+        "name": "CandidatesCount",
+        "type": "number",
+        "description": "Expected number of candidates",
+        "options": null
+      },
+      {
+        "name": "DeliveryMode",
+        "type": "text",
+        "description": "Preferred delivery mode (Online, Offline, Hybrid)",
+        "options": null
+      },
+      {
+        "name": "Location",
+        "type": "text",
+        "description": "Location of the training",
+        "options": null
+      },
+      {
+        "name": "Message",
+        "type": "text",
+        "description": "Additional context or message",
+        "options": null
+      },
+      {
+        "name": "FormSource",
+        "type": "text",
+        "description": "Source of the lead (Main Page Form vs Modal Form)",
+        "options": null
+      }
+    ]
+  }
+]

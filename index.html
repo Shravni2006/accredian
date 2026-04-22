@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accredian Corporate - Next-Gen Expertise</title>
+    <meta name="description" content="Next-Gen Expertise For Your Enterprise">
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary: #1877F2; /* Accredian bright blue */
+            --primary-dark: #0c56c2;
+            --primary-light: #e6f0fd;
+            --secondary: #2D3748; 
+            --text-main: #1A202C; 
+            --text-muted: #718096; 
+            --bg-light: #F8FAFC; 
+        }
+    }
+
+    @layer base {
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-main);
+            background-color: #ffffff;
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: var(--text-main);
+            font-weight: 700;
+        }
+    }
+
+    @layer components {
+        .btn-primary {
+            @apply px-6 py-2.5 bg-[var(--primary)] text-white font-medium rounded-md hover:bg-[var(--primary-dark)] transition-colors duration-300;
+        }
+        .btn-outline {
+            @apply px-6 py-2.5 border border-[var(--primary)] text-[var(--primary)] font-medium rounded-md hover:bg-blue-50 transition-colors duration-300;
+        }
+        .section-padding {
+            @apply py-16 px-4 md:px-8 max-w-7xl mx-auto;
+        }
+        .section-title {
+            @apply text-3xl md:text-4xl font-bold text-center mb-4;
+        }
+        .section-subtitle {
+            @apply text-gray-500 text-center mb-12;
+        }
+        .blue-text {
+            @apply text-[var(--primary)];
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/Hero.js"></script>
+    <script type="text/babel" src="components/TrackRecord.js"></script>
+    <script type="text/babel" src="components/Partnerships.js"></script>
+    <script type="text/babel" src="components/AccredianEdge.js"></script>
+    <script type="text/babel" src="components/DomainExpertise.js"></script>
+    <script type="text/babel" src="components/CourseSegmentation.js"></script>
+    <script type="text/babel" src="components/WhoShouldJoin.js"></script>
+    <script type="text/babel" src="components/CATFramework.js"></script>
+    <script type="text/babel" src="components/DeliveryResults.js"></script>
+    <script type="text/babel" src="components/FAQ.js"></script>
+    <script type="text/babel" src="components/Testimonials.js"></script>
+    <script type="text/babel" src="components/BottomCTA.js"></script>
+    <script type="text/babel" src="components/EnquireModal.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
